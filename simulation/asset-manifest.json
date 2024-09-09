@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/exp-encryption-des-au/simulation/static/css/main.7c9bf47a.css",
+    "main.js": "/exp-encryption-des-au/simulation/static/js/main.0f099d92.js",
+    "static/js/787.8e63a2e3.chunk.js": "/exp-encryption-des-au/simulation/static/js/787.8e63a2e3.chunk.js",
+    "index.html": "/exp-encryption-des-au/simulation/index.html",
+    "main.7c9bf47a.css.map": "/exp-encryption-des-au/simulation/static/css/main.7c9bf47a.css.map",
+    "main.0f099d92.js.map": "/exp-encryption-des-au/simulation/static/js/main.0f099d92.js.map",
+    "787.8e63a2e3.chunk.js.map": "/exp-encryption-des-au/simulation/static/js/787.8e63a2e3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c9bf47a.css",
+    "static/js/main.0f099d92.js"
+  ]
+}

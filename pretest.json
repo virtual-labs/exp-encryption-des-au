@@ -1,0 +1,40 @@
+
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the block size of data used by DES for encryption?",
+      "answers": {
+        "a": "32 bits",
+        "b": "48 bits",
+        "c": "64 bits",
+        "d": "128 bits"
+      },
+      "explanations": {
+        "a": "Incorrect. DES uses a larger block size than 32 bits for encryption.",
+        "b": "Incorrect. While 48 bits is the size of the round keys, DES uses 64 bits for the data block.",
+        "c": "Correct. DES encrypts data in 64-bit blocks.",
+        "d": "Incorrect. DES uses a smaller block size than 128 bits."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the purpose of the initial permutation in the DES encryption process?",
+      "answers": {
+        "a": "To create subkeys for the encryption rounds",
+        "b": "To permute the plaintext before the round functions",
+        "c": "To expand the block size",
+        "d": "To encrypt the data"
+      },
+      "explanations": {
+        "a": "Incorrect. The initial permutation does not create subkeys; it reorders the bits of the plaintext.",
+        "b": "Correct. The initial permutation reorders the bits of the plaintext before it undergoes the round functions.",
+        "c": "Incorrect. The initial permutation does not change the block size; it permutes the bits within the block.",
+        "d": "Incorrect. The initial permutation itself is not the encryption; it is a preparatory step before the round functions."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
