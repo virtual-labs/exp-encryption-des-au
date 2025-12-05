@@ -35,6 +35,39 @@
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
+    },
+    {
+      "question": "The total number of rounds required for DES with 64 bit key is ______",
+      "answers": {
+        "a": "10",
+        "b": "12",
+        "c": "16",
+        "d": "None"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "A(n) ______ is a keyless substitution cipher with N inputs and M outputs that uses a formula to define therelationship between the input stream and the output stream.",
+      "answers": {
+        "a": "S-box",
+        "b": "P-box",
+        "c": "T-box",
+        "d": "none of the above"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "A(n) _______is a keyless transposition cipher with N inputs and M outputs that uses a table to define therelationship between the input stream and the output stream.",
+      "answers": {
+        "a": "S-box",
+        "b": "P-box",
+        "c": "T-box",
+        "d": "none of the above"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
     }
   ]
 }

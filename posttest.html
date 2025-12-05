@@ -470,13 +470,111 @@
                     </div>
                     <p class="panel">Explanation</p>
                 </div>
+
+                  <div class="question intermediate">
+                    As a change in one bit of the plaintext or one bit of the key should produce a change in many bits of theciphertext. This is known as the avalanche effect.
+                  </div>
+                  <div class="answers">
+                    <div id="answer3a">
+                      <label>
+                        <input type="radio" name="question3" value="a">
+                        a: True
+                      </label>
+                      <a href="#" id="explanation3a" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer3b">
+                      <label>
+                        <input type="radio" name="question3" value="b">
+                        b: False
+                      </label>
+                      <a href="#" id="explanation3b" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                </div>
+
+                  <div class="question intermediate">
+                    The number of unique substitution boxes in DES after the 48 bit XOR operation are
+                  </div>
+                  <div class="answers">
+                    <div id="answer4a">
+                      <label>
+                        <input type="radio" name="question4" value="a">
+                        a: 8
+                      </label>
+                      <a href="#" id="explanation4a" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer4b">
+                      <label>
+                        <input type="radio" name="question4" value="b">
+                        b: 4
+                      </label>
+                      <a href="#" id="explanation4b" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer4c">
+                      <label>
+                        <input type="radio" name="question4" value="c">
+                        c: 6
+                      </label>
+                      <a href="#" id="explanation4c" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer4d">
+                      <label>
+                        <input type="radio" name="question4" value="d">
+                        d: 12
+                      </label>
+                      <a href="#" id="explanation4d" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                </div>
+
+                  <div class="question beginner">
+                    Which one is the Heart of Data Encryption Standard (DES)?
+                  </div>
+                  <div class="answers">
+                    <div id="answer5a">
+                      <label>
+                        <input type="radio" name="question5" value="a">
+                        a: DES function (S-Boxes)
+                      </label>
+                      <a href="#" id="explanation5a" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer5b">
+                      <label>
+                        <input type="radio" name="question5" value="b">
+                        b: Encryption
+                      </label>
+                      <a href="#" id="explanation5b" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer5c">
+                      <label>
+                        <input type="radio" name="question5" value="c">
+                        c: Rounds
+                      </label>
+                      <a href="#" id="explanation5c" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer5d">
+                      <label>
+                        <input type="radio" name="question5" value="d">
+                        d: Cipher
+                      </label>
+                      <a href="#" id="explanation5d" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                </div>
                </div>
                 <button id="submit" class="btn btn-primary">Submit Quiz</button>
                 <div id="results"></div>
           </div>
             
             <script>
-              const myQuestions = [{"question":"During the DES decryption process, what is the purpose of the 'Inverse Initial Permutation'?","answers":{"a":"To mix the data bits for enhanced security","b":"To reverse the initial permutation","c":"To generate round keys","d":"To rearrange the bits before the first decryption round"},"explanations":{"a":"Incorrect. The 'Inverse Initial Permutation' is not designed to mix bits but to serve a different purpose.","b":"Correct. The 'Inverse Initial Permutation' reverses the effects of the initial permutation in the decryption process.","c":"Incorrect. Round keys are generated during key schedule, not during the 'Inverse Initial Permutation' in decryption.","d":"Incorrect. The 'Inverse Initial Permutation' is not responsible for rearranging bits before the first decryption round."},"correctAnswer":"b","difficulty":"intermediate"},{"question":"What is the purpose of the 'S-Box' substitution in DES decryption?","answers":{"a":"To mix the data bits for enhanced security","b":"To introduce non-linearity into the decryption process","c":"To generate round keys","d":"To rearrange the bits before the first decryption round"},"explanations":{"a":"Incorrect. The 'S-Box' substitution is not designed to mix bits but to introduce non-linearity into the decryption process.","b":"Correct. The 'S-Box' substitution introduces non-linearity, enhancing the security of DES decryption.","c":"Incorrect. Round keys are generated during key schedule, not during the 'S-Box' substitution in decryption.","d":"Incorrect. The 'S-Box' substitution is not responsible for rearranging bits before the first decryption round."},"correctAnswer":"b","difficulty":"intermediate"},{"question":"After completing the 16 rounds of DES decryption, what is the next step?","answers":{"a":"Initial permutation","b":"Round key generation","c":"Final permutation","d":"Subkey destruction"},"explanations":{"a":"Incorrect. The initial permutation is done at the beginning of the decryption process.","b":"Incorrect. Round key generation is completed before the decryption rounds start.","c":"Correct. The final permutation is the step that follows the 16 rounds of decryption in DES.","d":"Incorrect. There is no step involving subkey destruction in the DES decryption process."},"correctAnswer":"c","difficulty":"beginner"}];
+              const myQuestions = [{"question":"During the DES decryption process, what is the purpose of the 'Inverse Initial Permutation'?","answers":{"a":"To mix the data bits for enhanced security","b":"To reverse the initial permutation","c":"To generate round keys","d":"To rearrange the bits before the first decryption round"},"explanations":{"a":"Incorrect. The 'Inverse Initial Permutation' is not designed to mix bits but to serve a different purpose.","b":"Correct. The 'Inverse Initial Permutation' reverses the effects of the initial permutation in the decryption process.","c":"Incorrect. Round keys are generated during key schedule, not during the 'Inverse Initial Permutation' in decryption.","d":"Incorrect. The 'Inverse Initial Permutation' is not responsible for rearranging bits before the first decryption round."},"correctAnswer":"b","difficulty":"intermediate"},{"question":"What is the purpose of the 'S-Box' substitution in DES decryption?","answers":{"a":"To mix the data bits for enhanced security","b":"To introduce non-linearity into the decryption process","c":"To generate round keys","d":"To rearrange the bits before the first decryption round"},"explanations":{"a":"Incorrect. The 'S-Box' substitution is not designed to mix bits but to introduce non-linearity into the decryption process.","b":"Correct. The 'S-Box' substitution introduces non-linearity, enhancing the security of DES decryption.","c":"Incorrect. Round keys are generated during key schedule, not during the 'S-Box' substitution in decryption.","d":"Incorrect. The 'S-Box' substitution is not responsible for rearranging bits before the first decryption round."},"correctAnswer":"b","difficulty":"intermediate"},{"question":"After completing the 16 rounds of DES decryption, what is the next step?","answers":{"a":"Initial permutation","b":"Round key generation","c":"Final permutation","d":"Subkey destruction"},"explanations":{"a":"Incorrect. The initial permutation is done at the beginning of the decryption process.","b":"Incorrect. Round key generation is completed before the decryption rounds start.","c":"Correct. The final permutation is the step that follows the 16 rounds of decryption in DES.","d":"Incorrect. There is no step involving subkey destruction in the DES decryption process."},"correctAnswer":"c","difficulty":"beginner"},{"question":"As a change in one bit of the plaintext or one bit of the key should produce a change in many bits of theciphertext. This is known as the avalanche effect.","answers":{"a":"True","b":"False"},"correctAnswer":"a","difficulty":"intermediate"},{"question":"The number of unique substitution boxes in DES after the 48 bit XOR operation are","answers":{"a":"8","b":"4","c":"6","d":"12"},"correctAnswer":"a","difficulty":"intermediate"},{"question":"Which one is the Heart of Data Encryption Standard (DES)?","answers":{"a":"DES function (S-Boxes)","b":"Encryption","c":"Rounds","d":"Cipher"},"correctAnswer":"a","difficulty":"beginner"}];
             </script>
               <script src="./assets/js/assessment_v2.js"></script>  
           <div class="bug-report-mobile">

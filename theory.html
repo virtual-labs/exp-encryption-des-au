@@ -328,11 +328,15 @@
             <div class="text-center fix-spacing">
               <h2 id="experiment-2---des-encryption">Experiment 2 - DES Encryption</h2>
           
-            </div>
+        </div>
               <h3 id="theory">Theory</h3>
-          <p>DES encryption transforms plaintext into ciphertext through a series of highly structured steps. It starts with an initial permutation (IP) of the 64-bit plaintext block, rearranging the bits to break up patterns and distribute the characteristics of the plaintext over the entire block. Following the IP, the block is divided into two 32-bit halves. In each of the sixteen rounds of encryption, the right half undergoes an expansion function, increasing its size from 32 to 48 bits, and is then XORed with a round key. The result passes through the S-boxes, which perform a complex substitution operation, followed by a permutation function (P-box), which rearranges the bits to provide diffusion. The left half of the block is then XORed with the output of this function, and the halves are swapped. After sixteen rounds, the halves are not swapped; instead, they undergo a final permutation (FP), which is the inverse of the initial permutation, to produce the final 64-bit ciphertext.</p>
-          
-          </div>
+          <ul>
+          <li>The Data Encryption Standard (DES) is a symmetric key block cipher developed by IBM and adopted by the U.S. National Institute of Standards and Technology (NIST) in 1977. It works on 64-bit blocks of plaintext and uses a 48-bit effective key derived from DES key generation process. </li>
+          <li>The DES follows a Feistel network structure consisting of 16 rounds, where each round applies substitution and permutation operations to perform confusion and diffusion.</li>
+          <li>The encryption process begins with an Initial Permutation (IP), followed by splitting the block into left and right halves. In each round, the right half is expanded, XORed with a round-specific subkey generated from the main key, and passed through S-boxes, which provide nonlinearity. The output is then permuted and XORed with the left half to form the new right half. After 16 rounds, the halves are swapped and passed through a Final Permutation (FP) to produce the ciphertext.</li>
+          </ul>
+                    
+        </div>
           <div class="bug-report-mobile">
               <bug-report id="bug-report" title="[BUG REPORT] EXPERIMENT 2 - DES ENCRYPTION" page-type="text" context-info="{&quot;organisation&quot;:&quot;Virtual Labs&quot;,&quot;developer_institute&quot;:&quot;AU&quot;,&quot;expname&quot;:&quot;EXPERIMENT 2 - DES ENCRYPTION&quot;,&quot;labname&quot;:&quot;Virtual Lab&quot;,&quot;phase&quot;:&quot;Testing&quot;}" checkbox-json="{&quot;text&quot;:[&quot;Insufficient Content&quot;],&quot;video&quot;:[&quot;Insufficient Content&quot;],&quot;assesment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;assessment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;simulation&quot;:[&quot;Simulation Not Working&quot;,&quot;Incorrect Results/Observations&quot;,&quot;Insufficient/Incorrect Instructions&quot;],&quot;DEFAULT&quot;:[&quot;Page Not Loading&quot;,&quot;Content Not Visible&quot;,&quot;Incorrect Content&quot;]}" position="override" button_style="
                           position: fixed; 
