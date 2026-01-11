@@ -1,2 +1,2 @@
 ### Aim of the experiment
-This Experiment helps students understand and learn the process of plaintext encryption in the DES Algorithm.
+The aim of this experiment is to understand and implement the Data Encryption Standard (DES) symmetric key encryption algorithm by performing encryption for a given plaintext and key, and to demonstrate its internal operations including permutations, and Feistel round functions to comprehend how secure data transformation is achieved.
