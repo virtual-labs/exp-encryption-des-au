@@ -51,6 +51,37 @@
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+    {
+      "question": "As a change in one bit of the plaintext or one bit of the key should produce a change in many bits of theciphertext. This is known as the avalanche effect.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "The number of unique substitution boxes in DES after the 48 bit XOR operation are",
+      "answers": {
+        "a": "8",
+        "b": "4",
+        "c": "6",
+        "d": "12"
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which one is the Heart of Data Encryption Standard (DES)?",
+      "answers": {
+        "a": "DES function (S-Boxes)",
+        "b": "Encryption",
+        "c": "Rounds",
+        "d": "Cipher"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
     }
   ]
 }
