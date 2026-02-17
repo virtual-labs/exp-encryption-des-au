@@ -2,37 +2,85 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "During the DES decryption process, what is the purpose of the 'Inverse Initial Permutation'?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To mix the data bits for enhanced security",
+        "b": "To reverse the initial permutation",
+        "c": "To generate round keys",
+        "d": "To rearrange the bits before the first decryption round"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. The 'Inverse Initial Permutation' is not designed to mix bits but to serve a different purpose.",
+        "b": "Correct. The 'Inverse Initial Permutation' reverses the effects of the initial permutation in the decryption process.",
+        "c": "Incorrect. Round keys are generated during key schedule, not during the 'Inverse Initial Permutation' in decryption.",
+        "d": "Incorrect. The 'Inverse Initial Permutation' is not responsible for rearranging bits before the first decryption round."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is the purpose of the 'S-Box' substitution in DES decryption?",
+      "answers": {
+        "a": "To mix the data bits for enhanced security",
+        "b": "To introduce non-linearity into the decryption process",
+        "c": "To generate round keys",
+        "d": "To rearrange the bits before the first decryption round"
+      },
+      "explanations": {
+        "a": "Incorrect. The 'S-Box' substitution is not designed to mix bits but to introduce non-linearity into the decryption process.",
+        "b": "Correct. The 'S-Box' substitution introduces non-linearity, enhancing the security of DES decryption.",
+        "c": "Incorrect. Round keys are generated during key schedule, not during the 'S-Box' substitution in decryption.",
+        "d": "Incorrect. The 'S-Box' substitution is not responsible for rearranging bits before the first decryption round."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "After completing the 16 rounds of DES decryption, what is the next step?",
+      "answers": {
+        "a": "Initial permutation",
+        "b": "Round key generation",
+        "c": "Final permutation",
+        "d": "Subkey destruction"
+      },
+      "explanations": {
+        "a": "Incorrect. The initial permutation is done at the beginning of the decryption process.",
+        "b": "Incorrect. Round key generation is completed before the decryption rounds start.",
+        "c": "Correct. The final permutation is the step that follows the 16 rounds of decryption in DES.",
+        "d": "Incorrect. There is no step involving subkey destruction in the DES decryption process."
+      },
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "As a change in one bit of the plaintext or one bit of the key should produce a change in many bits of theciphertext. This is known as the avalanche effect.",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "True",
+        "b": "False"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "The number of unique substitution boxes in DES after the 48 bit XOR operation are",
+      "answers": {
+        "a": "8",
+        "b": "4",
+        "c": "6",
+        "d": "12"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which one is the Heart of Data Encryption Standard (DES)?",
+      "answers": {
+        "a": "DES function (S-Boxes)",
+        "b": "Encryption",
+        "c": "Rounds",
+        "d": "Cipher"
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
