@@ -3,8 +3,8 @@
 
 | <b>Discipline  | <b> Computer Science and Engineering                          |
 :--|:--|
-<b> Lab | <b> Cryptography Lab
-<b> Experiment|     <b> DES Encryption
+<b> Lab | <b> Object Oriented Programming
+<b> Experiment|     <b> Analyze the problem to identify the objects, classes and its attributes
 
 ### About the Experiment 
 
@@ -19,3 +19,5 @@
 | SrNo | Name               | Faculty or Student | Department                       | Institute                  | Email id                        |
 | :--- | :----------------- | :----------------- | :------------------------------- | :------------------------- | :------------------------------ |
 | 1    | Dr. Ritwik Murali  | Faculty           | Computer Science and Engineering | Amrita Vishwa Vidyapeetham |  m_ritwik@cb.amrita.edu  |
+| 2    | Ms. Nalinadevi K  | Faculty           | Computer Science and Engineering | Amrita Vishwa Vidyapeetham | k_nalinadevi@cb.amrita.edu  |
+| 3    | Ms.M.Suchithra  | Faculty           | Computer Science and Engineering | Amrita Vishwa Vidyapeetham | m_suchithra@cb.amrita.edu |
